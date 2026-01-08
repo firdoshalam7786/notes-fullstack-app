@@ -1,3 +1,122 @@
+# Notes App (Full Stack)
+
+A simple full-stack Notes application built using **Next.js** and **MongoDB**.  
+Users can create, view, edit, and delete notes easily through a clean UI.
+
+This project was built as part of an internship assignment to demonstrate
+basic full-stack development skills.
+
+---
+
+## Features
+
+- Create a new note  
+- View all notes  
+- Edit an existing note  
+- Delete a note  
+- Each note includes:
+  - Title
+  - Content
+  - Creation timestamp
+
+---
+
+## Tech Stack
+
+- **Next.js** – Frontend & Backend (API Routes)
+- **MongoDB** – Database
+- **Mongoose** – MongoDB ODM
+- **Tailwind CSS** – Styling
+
+---
+
+## Project Structure (Simplified)
+
+src/
+├── app/
+│ ├── page.js // Home page (list notes)
+│ ├── create/page.js // Create note
+│ ├── edit/[id]/page.js // Edit note
+│ └── api/notes/ // Backend APIs
+│
+├── components/
+│ └── NoteCard.js
+│
+├── lib/
+│ └── mongodb.js
+│
+└── models/
+└── Note.js
+
+yaml
+Copy code
+
+---
+
+## How to Run Locally
+
+1. Clone the repository  
+git clone <your-github-repo-link>
+
+markdown
+Copy code
+
+2. Install dependencies  
+npm install
+
+csharp
+Copy code
+
+3. Create a `.env.local` file in the root folder and add:
+MONGODB_URI=your_mongodb_connection_string
+
+4. Start the development server  
+npm run dev
+
+markdown
+Copy code
+
+5. Open in browser  
+http://localhost:3000
+
+yaml
+Copy code
+
+---
+
+## Usage
+
+- Click **Add Note** to create a new note  
+- Click **Edit** to update an existing note  
+- Click **Delete** to remove a note  
+
+All changes are saved in MongoDB.
+
+---
+
+## Status
+
+✔ Assignment completed  
+✔ All required features implemented  
+✔ Fully functional CRUD application  
+
+---
+
+## Notes
+
+- `.env.local` is not committed to GitHub for security reasons.
+- The UI is intentionally kept simple and clean.
+
+---
+
+## Author
+
+Built by **Firdosh Alam**  
+
+
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
