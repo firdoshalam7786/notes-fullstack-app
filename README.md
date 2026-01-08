@@ -56,7 +56,7 @@ Copy code
 ## How to Run Locally
 
 1. Clone the repository  
-git clone <your-github-repo-link>
+git clone <https://github.com/firdoshalam7786/notes-fullstack-app>
 
 markdown
 Copy code
