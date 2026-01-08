@@ -54,9 +54,6 @@ src/
 └── models/
 └── Note.js
 
-yaml
-Copy code
-
 ---
 
 ## How to Run Locally
