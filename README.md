@@ -6,6 +6,12 @@ Users can create, view, edit, and delete notes easily through a clean UI.
 This project was built as part of an internship assignment to demonstrate
 basic full-stack development skills.
 
+## Screenshots
+
+![Home](src/screenshots/home.png)
+![Create](src/screenshots/create.png)
+![Edit](src/screenshots/edit.png)
+
 ---
 
 ## Features
