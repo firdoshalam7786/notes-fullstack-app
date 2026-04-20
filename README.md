@@ -1,7 +1,7 @@
 # Notes App (Full Stack)
 
 ## 🌐 Live Demo
-https://notes-fullstack-9dmbq8f97-firdoshalam7786s-projects.vercel.app/
+https://notes-fullstack-app-blue.vercel.app/
 
 
 A simple full-stack Notes application built using **Next.js** and **MongoDB**.  
