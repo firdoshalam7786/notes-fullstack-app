@@ -1,6 +1,6 @@
 # Notes App (Full Stack)
 
-## 🌐 Live Demo
+## 🌐 Deployed Application Link
 https://notes-fullstack-app-blue.vercel.app/
 
 
